@@ -1,0 +1,23 @@
+.border-radius(@size) {
+  -webkit-border-radius: @size;
+  -moz-border-radius: @size;
+  -ms-border-radius: @size;
+  -o-border-radius: @size;
+  border-radius: @size;
+}
+
+.boxSizing() {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  -o-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.bg_linear(@dir, @from, @to) {
+  background: -webkit-linear-gradient(@dir, @from, @to);
+  background: -moz-linear-gradient(@dir, @from, @to);
+  background: -ms-linear-gradient(@dir, @from, @to);
+  background: -o-linear-gradient(@dir, @from, @to);
+  background-image: linear-gradient(@dir, @from, @to);
+}
