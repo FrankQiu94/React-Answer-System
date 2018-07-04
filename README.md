@@ -8,8 +8,8 @@
 该小项目已上线，移动端[访问链接](http://www.cyikao.com/zg/2018_ysdtxt)
 
 ## 目录格式
----
-.
+
+```
 +-- config
 |   +-- jest
     |   +-- cssTransform.js
@@ -43,3 +43,4 @@
 |   +-- start.js
 |   +-- test.js
 +-- package.json
+```
