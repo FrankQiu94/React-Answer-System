@@ -9,38 +9,38 @@
 
 ## 目录格式
 
-```
-+-- config
-|   +-- jest
-    |   +-- cssTransform.js
-    |   +-- fileTransform.js
-|   +-- env.js
-|   +-- path.js
-|   +-- polyfills.js
-|   +-- webkpack.config.dev.js
-|   +-- webkpack.config.prod.js
-|   +-- webkpackDevServer.config.js
-+-- src
-|   +-- img
-|   +-- js
-    |   +-- componentes
-    |   +-- data
-    |   +-- redux
-|   +-- less
-    |   +-- mixin.less
-    |   +-- reset.less
-    |   +-- style.less
-|   +-- index.css
-|   +-- index.js
-|   +-- reducer.js
-|   +-- utils.js
-+-- public
-|   +-- manifest.json
-|   +-- index.html
-|   +-- favicon.icon
-+-- script
-|   +-- build.js
-|   +-- start.js
-|   +-- test.js
-+-- package.json
+```tree
+├── config
+|   ├── jest
+|   |   ├── cssTransform.js
+|   |   └── fileTransform.js
+|   ├── env.js
+|   ├── path.js
+|   ├── polyfills.js
+|   ├── webkpack.config.dev.js
+|   ├── webkpack.config.prod.js
+|   └── webkpackDevServer.config.js
+├── src
+|   ├── img
+|   ├── js
+|   |   ├── componentes
+|   |   ├── data
+|   |   └── redux
+|   ├── less
+|   |   ├── mixin.less
+|   |   ├── reset.less
+|   |   └── style.less
+|   ├── index.css
+|   ├── index.js
+|   ├── reducer.js
+|   └── utils.js
+├── public
+|   ├── manifest.json
+|   ├── index.html
+|   └── favicon.icon
+├── script
+|   ├── build.js
+|   ├── start.js
+|   └── test.js
+└── package.json
 ```
